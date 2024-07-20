@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj": {}
+    "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj": {
+    "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj",
+        "projectPath": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\devmm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\obj\\",
+        "outputPath": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\devmm\\AppData\\Roaming\\NuGet\\NuGet.Config"

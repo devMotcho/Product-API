@@ -74,3 +74,4 @@ C:\Users\devmm\desktop\dotnetproj\productapi\obj\Debug\net8.0\ProductApi.pdb
 C:\Users\devmm\desktop\dotnetproj\productapi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
 C:\Users\devmm\desktop\dotnetproj\productapi\obj\Debug\net8.0\ref\ProductApi.dll
 C:\Users\devmm\desktop\dotnetproj\productapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\devmm\desktop\dotnetproj\productapi\obj\Debug\net8.0\ProductApi.sourcelink.json

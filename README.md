@@ -38,14 +38,14 @@ For this project i used:
 
 #### On Registration
 
-- Password Salt is generated randomly
-- Password Hash is generated with the `GetPasswordHash` method
-- `GetPasswordHash` takes the user password and the salt generated as `args`
+- Password Salt is generated randomly;
+- Password Hash is generated with the `GetPasswordHash` method;
+- `GetPasswordHash` takes the user password and the salt generated as `args`;
 - Inside the method `GetPasswordHash`:
-  - It gets the `AppSetings:PasswordKey` from the `appsettings.json` file that is a random string and adds it to the Salt
-  - Implements then password-based key derivation functionality, `PBKDF2`, by using a pseudo-random number generator based on `HMACSHA256`
-  - returns the `passwordHash`
-- `PasswordHash` and `PasswordSalt` are stored in the database using a parameter SQL query with Dapper if
+  - It gets the `AppSetings:PasswordKey` from the `appsettings.json` file that is a random string and adds it to the Salt;
+  - Implements then password-based key derivation functionality, `PBKDF2`, by using a pseudo-random number generator based on `HMACSHA256`;
+  - returns the `passwordHash`;
+- `PasswordHash` and `PasswordSalt` are stored in the database using a parameter SQL query with Dapper.
 
 #### On Login
 
@@ -85,6 +85,11 @@ dotnet build
 
 5. Copy and Past `CreateTables.sql` in **Azure Data Studio**
 
+6. Start development server
+```
+dotnet watch run
+```
+
 ## ProductDataInjectionService
 
 This service will inject `Products.json`, dummy objects, into the database.
@@ -104,8 +109,8 @@ This service will inject `Products.json`, dummy objects, into the database.
   },
   "AllowedHosts": "*",
   "AppSettings": {
-    "PasswordKey": "7s+n8iv(h_$d^ri_vmy(%=yw+-c$hqle7ag!kh6f%h2n87jgg@_vmy(%=yw+-c$hqle",
-    "TokenKey": "o%!r0#zb!m#m&ite*s2uqu2=e=6tp!pupi6=mub8e^8ki*3&7re=6tp!pupi6=mub8e^8ki*3&7r"
+    "PasswordKey": "you_random_password_key",
+    "TokenKey": "you_random_token_key"
   }
 }
 ```

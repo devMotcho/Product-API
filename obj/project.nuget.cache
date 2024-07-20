@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eFRlpq59mo0=",
+  "dgSpecHash": "2GAr+gsgR1c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devmm\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\devmm\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
