@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj": {}
+    "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj": {
+    "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj",
+        "projectUniqueName": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\ProductApi.csproj",
+        "projectPath": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\devmm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devmm\\desktop\\dotnetproj\\productapi\\obj\\",
+        "outputPath": "C:\\Users\\devmm\\Desktop\\dotnetproj\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\devmm\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.1, )"

@@ -143,7 +143,7 @@ The `AuthController` manages authentication, including user registration and log
 #### Login
 
 - URL: `Auth/Login`
-- Mehod: `POST`
+- Method: `POST`
 - Request Body:
 
 ```
@@ -158,6 +158,13 @@ The `AuthController` manages authentication, including user registration and log
   - **401 Unauthorized** : Incorrect password.
   - **404 Not Found** : User not found.
   - **500 Internal Server** : Failed to login user.
+
+#### RefreshToken
+
+- URL: `Auth/RefreshToken`
+- Method: `GET`
+- Responses:
+  - **200 OK** : Returns a new JWT token.
 
 ### ProductController
 
